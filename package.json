@@ -1,0 +1,14 @@
+{
+  "name": "exercise-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VICEMedia/exercise-frontend",
+  "author": "Omar Delarosa <thedelarosa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-api": "json-server --watch shows.json"
+  },
+  "dependencies": {
+    "json-server": "0.12.1"
+  }
+}
