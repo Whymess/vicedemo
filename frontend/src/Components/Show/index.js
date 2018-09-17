@@ -11,7 +11,7 @@ export default props => {
 
   let { product_image_url, title, episodes } = currentShow;
 
-  if (parsed["id"] !== undefined) {
+
     return (
       <div className="d-flex justify-content-center mt-5">
         <div className="moive-contain">
@@ -26,5 +26,5 @@ export default props => {
         </div>
       </div>
     );
-  }
+
 };
